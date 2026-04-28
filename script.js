@@ -46,10 +46,10 @@ const translations = {
   cvEmployment2: { en: "2019 ~ 2020, Postdoc Scientist, Columbia University", zh: "2019 ~ 2020，博士后，纽约哥伦比亚大学" },
   cvEmployment3: { en: "2021 ~ 2022, Research Scientist, Iowa State University", zh: "2021 ~ 2022，研究员，爱荷华州立大学" },
   cvEmployment4: { en: "2020 ~ 2022, Associate Research Scientist, Columbia University", zh: "2020 ~ 2022，副研究员，纽约哥伦比亚大学" },
-  cvEmployment5: { en: "2023 ~ 2024, Associate Professor, Physics, Xiamen University", zh: "2023 ~ 2024，副教授，厦门大学物理学科" },
-  cvEmployment6: { en: "2024 ~ now, Professor of Physics, Xiamen University", zh: "2024 ~ 至今，教授，厦门大学物理学科" },
+  cvEmployment5: { en: "2023 ~ 2024, Associate Professor, Xiamen University", zh: "2023 ~ 2024，副教授，厦门大学" },
+  cvEmployment6: { en: "2024 ~ now, Professor of Physics, Xiamen University", zh: "2024 ~ 至今，教授，厦门大学" },
   cvActivity1: { en: "Associate Editor for JGR: Machine Learning and Computation", zh: "JGR: Machine Learning and Computation 副编辑" },
-  cvActivity2: { en: "Reviewed articles for Physical Review Letters/Applied/B/E/Materials; Advanced Materials/Functional Materials/Science; ACS journals; Nature journals; etc.", zh: "Physical Review Letters/Applied/B/E/Materials、Advanced Materials/Functional Materials/Science、ACS 期刊、Nature 系列和Science 系列等期刊审稿人" }
+  cvActivity2: { en: "Reviewed articles for Physical Review Letters/Applied/B/E/Materials; Advanced Materials/Functional Materials/Science; ACS journals; Science journals; Nature journals; etc.", zh: "Physical Review Letters/Applied/B/E/Materials、Advanced Materials/Functional Materials/Science、ACS 期刊、Nature 系列和Science 系列等期刊审稿人" }
 };
 
 if (toggle && nav) {
