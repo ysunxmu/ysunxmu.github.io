@@ -25,7 +25,7 @@
         metaZh: "毕业生",
         title: "",
         entries: [
-          { name: "Zhaolin Cui (崔兆林)", role: "Undergraduate student | 2024-2025 | Bachelor thesis: Free energy calculation for solid-state model systems", roleZh: "本科生 | 2024-2025 | 毕业论文：固态模型体系的自由能计算", note: "Next: Nanjing University", noteZh: "去向：南京大学", photo: "photo/image.avif" }
+          { name: "Zhaolin Cui (崔兆林)", role: "Undergraduate student | 2024-2025 | Bachelor thesis: Free energy calculation for solid-state model systems", roleZh: "本科生 | 2024-2025 | 毕业论文：固态模型体系的自由能计算", note: "Next: Nanjing University", noteZh: "去向：南京大学", photo: "photo/czl.jpg" }
         ]
       }
     ]
