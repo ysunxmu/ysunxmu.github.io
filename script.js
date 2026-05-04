@@ -395,28 +395,8 @@ function renderTalksPage() {
   });
 }
 
-function applyVisitCounterOffset() {
-  const counter = document.querySelector("[data-visit-offset]");
-  if (!counter) return;
-
-  const offset = Number.parseInt(counter.dataset.visitOffset, 10);
-  if (!Number.isFinite(offset)) return;
-
-  const update = () => {
-    const rawValue = Number.parseInt(counter.textContent.replace(/,/g, ""), 10);
-    if (!Number.isFinite(rawValue)) return;
-    if (rawValue === offset || rawValue >= offset) return;
-
-    counter.textContent = String(rawValue + offset);
-  };
-
-  update();
-  new MutationObserver(update).observe(counter, { childList: true, characterData: true, subtree: true });
-}
-
 installLanguageToggle();
 applyStaticLanguage();
 renderTeamPage();
 renderPublicationsPage();
 renderTalksPage();
-applyVisitCounterOffset();
