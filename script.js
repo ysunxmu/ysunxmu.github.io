@@ -20,6 +20,8 @@ const translations = {
     zh: "欢迎有物理、化学和材料科学等背景的优秀学生和博士后加入我们。课题组位于厦门大学物理科学与技术学院。"
   },
   contact: { en: "Contact", zh: "联系方式" },
+  visitTotal: { en: "Total visits", zh: "总访问量" },
+  visitUnit: { en: "", zh: "次" },
   researchIntro: { en: "Our research interests include:", zh: "我们的研究兴趣包括：" },
   researchInterest1: { en: "structure and dynamics of planetary interior", zh: "行星深部的结构与演化" },
   researchInterest2: { en: "kinetics and thermodynamics simulation algorithms", zh: "动力学与热力学模拟算法" },
@@ -393,8 +395,30 @@ function renderTalksPage() {
   });
 }
 
+function applyVisitCounterOffset() {
+  const counter = document.querySelector("[data-visit-offset]");
+  if (!counter) return;
+
+  const offset = Number.parseInt(counter.dataset.visitOffset, 10);
+  if (!Number.isFinite(offset)) return;
+
+  const update = () => {
+    if (counter.dataset.offsetApplied === "true") return;
+    const rawValue = Number.parseInt(counter.textContent.replace(/,/g, ""), 10);
+    if (!Number.isFinite(rawValue)) return;
+    if (rawValue === offset) return;
+
+    counter.textContent = String(rawValue + offset);
+    counter.dataset.offsetApplied = "true";
+  };
+
+  update();
+  new MutationObserver(update).observe(counter, { childList: true, characterData: true, subtree: true });
+}
+
 installLanguageToggle();
 applyStaticLanguage();
 renderTeamPage();
 renderPublicationsPage();
 renderTalksPage();
+applyVisitCounterOffset();
