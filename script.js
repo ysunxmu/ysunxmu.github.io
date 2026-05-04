@@ -403,13 +403,11 @@ function applyVisitCounterOffset() {
   if (!Number.isFinite(offset)) return;
 
   const update = () => {
-    if (counter.dataset.offsetApplied === "true") return;
     const rawValue = Number.parseInt(counter.textContent.replace(/,/g, ""), 10);
     if (!Number.isFinite(rawValue)) return;
-    if (rawValue === offset) return;
+    if (rawValue === offset || rawValue >= offset) return;
 
     counter.textContent = String(rawValue + offset);
-    counter.dataset.offsetApplied = "true";
   };
 
   update();

@@ -498,12 +498,14 @@ img { max-width: 100%; display: block; }
   vertical-align: baseline;
 }
 
-#busuanzi_value_site_pv {
+#busuanzi_value_site_pv,
+#busuanzi_value_page_pv {
   color: var(--primary);
   font-weight: 600;
 }
 
-.cv-visit-counter #busuanzi_value_site_pv {
+.cv-visit-counter #busuanzi_value_site_pv,
+.cv-visit-counter #busuanzi_value_page_pv {
   color: #fff;
 }
 
