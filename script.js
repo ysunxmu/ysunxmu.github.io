@@ -241,6 +241,8 @@ function renderTeamPage() {
       body.appendChild(createElement("p", "team-role", language === "zh" ? entry.roleZh || entry.role : entry.role));
       const note = language === "zh" ? entry.noteZh || entry.note : entry.note;
       if (note) body.appendChild(createElement("p", "team-note", note));
+      const note2 = language === "zh" ? entry.note2Zh || entry.note2 : entry.note2;
+      if (note2) body.appendChild(createElement("p", "team-note", note2));
 
       row.appendChild(body);
       item.appendChild(row);

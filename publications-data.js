@@ -1,5 +1,109 @@
 window.sitePublications = [
   {
+    "number": 134,
+    "authors": "M. Wang, Y.-X. Lin, Z. Huang, Y. Sun, S. Wu, X. Cao",
+    "title": "A Geometric-Electronic Principle for Curvature-Driven Single-Atom Catalysis",
+    "venue": "ACS Catal. 16, 12620-12631 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1021/acscatal.6c02847",
+        "label": "link"
+      }
+    ]
+  },
+  {
+    "number": 133,
+    "authors": "Z. Wu, L. Wei, C. Gao, S. Wu, R. M. Wentzcovitch, Y. Sun",
+    "title": "Radial gradient of superionic hydrogen in Earth's inner core",
+    "venue": "Proc. Natl. Acad. Sci. U.S.A. 123, e2604621123 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1073/pnas.2604621123",
+        "label": "link"
+      }
+    ]
+  },
+  {
+    "number": 132,
+    "authors": "M. Wang, Y.-X. Lin, Y. Xiang, Y. Sun, Z.-Z. Zhu, S. Wu, X. Cao",
+    "title": "Curvature Engineering of SiFe Dual-Atom Catalysts for Enhanced CO2 Electroreduction",
+    "venue": "J. Phys. Chem. Lett. 17, 1227-1234 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1021/acs.jpclett.5c03896",
+        "label": "link"
+      }
+    ]
+  },
+  {
+    "number": 131,
+    "authors": "N. Huang, R. M. Wentzcovitch, Z. Wu, F. Zheng, B. Wu, Y. Sun, S. Wu",
+    "title": "New phases in the Fe-Si-O system at terapascal pressures",
+    "venue": "Earth Planet. Sci. Adv. 100001 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1016/j.epsa.2026.100001",
+        "label": "link"
+      }
+    ]
+  },
+  {
+    "number": 130,
+    "authors": "S. Chen, Z. Zhang, V. Antropov, Y. Sun",
+    "title": "Computational prediction of ferromagnetic AT6X6 kagome compounds",
+    "venue": "Phys. Rev. B 113, 224412 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1103/t61c-xmn3",
+        "label": "link"
+      }
+    ]
+  },
+  {
+    "number": 129,
+    "authors": "P. Chen, N. Huang, Z. Wu, Y. Zhou, Y. Sun, T.-Y. Lü, X. Cao, S. Wu",
+    "title": "Phase stability and stoichiometric diversity in the Mg-Si system under high pressure",
+    "venue": "Phys. Rev. B 113, 184101 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1103/l74t-x4kc",
+        "label": "link"
+      }
+    ]
+  },
+  {
+    "number": 128,
+    "authors": "T. Cox, V. Gvozdetskyi, Z. Miari, K. Osborn, A. Sarkar, P. Yox, B. Selvaratnam, S. Chen, Y. Sun, A. Mar, J. V. Zaikina",
+    "title": "Combining Compositional Screening via Hydride Route, Machine Learning, and In Situ Diffraction to Discover Antimonides in the K-Cd-Sb System",
+    "venue": "Chem. Mater. 38, 1117-1133 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1021/acs.chemmater.5c02330",
+        "label": "link"
+      }
+    ]
+  },
+  {
+    "number": 127,
+    "authors": "F. Zheng, S. Chen, Z. Zhang, R. Wang, F. Zhang, Z.-Z. Zhu, C.-Z. Wang, V. Antropov, Y. Sun, K.-M. Ho",
+    "title": "Disentangling electronic and phononic contributions to high-temperature superconductivity in X2MH6 hydrides",
+    "venue": "Mater. Today Phys. 63, 102089 (2026)",
+    "year": "2026",
+    "links": [
+      {
+        "url": "https://doi.org/10.1016/j.mtphys.2026.102089",
+        "label": "link"
+      }
+    ]
+  },
+  {
     "number": 126,
     "authors": "B. Wu, Z. Wu, P. Chen, N. Huang, T.-Y. Lv, X. Cao, Y. Sun, Z.-Z. Zhu, S. Wu",
     "title": "Structural evolution of the Fe-Si binary system under extreme pressure",
